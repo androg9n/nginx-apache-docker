@@ -1,0 +1,21 @@
+
+<VirtualHost *:80>
+    ServerName default
+    DocumentRoot "/usr/local/apache2/htdocs"
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName domain1.ru
+    DocumentRoot "/usr/local/apache2/htdocs/design-portfolio-template"
+    DirectoryIndex home.html
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName domain2.ru
+    DocumentRoot "/usr/local/apache2/htdocs/organic-farm"
+    DirectoryIndex home.html
+</VirtualHost>
+
+
+
+
